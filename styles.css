@@ -30,7 +30,7 @@ main{
 }
 
 #login_form{
-    background-color: aliceblue;
+    background-color: rgb(253, 253, 253);
     padding:5%;
     box-shadow: 1px 2px 5px black;
     width:100%;
@@ -40,15 +40,36 @@ main{
 #login_form, h1{
     margin:0;
     margin-bottom:10px;
+    border-radius: 10px;
 }
 
 .row{
     display: flex;
     flex-direction: row;
+    /* justify-content: center; */
 }
 
 .field{
     display:flex;
     flex-direction: column;
     margin-right: 10px;
+}
+
+#login_container{
+    width:100%;
+    padding:8%
+}
+
+#btn_submit{
+    padding:2%;
+    background-color: rgb(14, 180, 130);
+    color:white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:1em;
+}
+
+#btn_submit:hover{
+    background-color: rgb(78, 110, 56);
+    color:rgb(0, 0, 0);
 }
