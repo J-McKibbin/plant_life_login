@@ -10,25 +10,44 @@
     <main>
         <div id="content_left">
             <!-- <h1>Welcome</h1> -->
+             <div>
+                <!-- <h1>PlantLife</h1> -->
+             </div>
         </div>
         <div id="content_right">
+            <div id="title_right">   
+                <h1 id="website_title">Plant Life</h1>
+                <span style="color:rgb(222, 222, 222)"><p>Sharing your grassy stories since 2024...</p></span>
+                <hr>
+            </div>
             <div id="login_container">
                 <form id="login_form">
-                    <div><h1>Login</h1></div>
+                    <h1 id="login_title">Login</h1>
                     <div class="row">
                         <div class="field">
-                            <label>Name</label>
-                            <input type="text">
+                            <label for="email_input">Email</label>
+                            <input id="email_input" class="login_input" placeholder="Email" type="email" required>
                         </div>
                         <div class="field">
-                            <label>Age</label>
-                            <input type="number">
+                            <label for="password_input">Password</label>
+                            <input id="password_input" class="login_input" placeholder="Password" type="password" required>
                         </div>
                     </div>
+                    <div id="login_form_bottom_section">
+                        <button type="submit" id="btn_submit">Login</button>
+                        <br>
+                        <br>
+                        <span style="color: white;"><a href="">Forgot Password</a></p></span>
+                        <span style="color: white;"><p>Don't have an account? <a href="">Register now</a></p></span>
+                    </div>
                 </form>
-                <button id="btn_submit">Submit</button>
+                
             </div>
-
+            <div id="footer">
+                <img class="contact_icon" src="assets/facebook-icon.png">
+                <img class="contact_icon" src="assets/instagram-icon.png">
+                <img class="contact_icon" src="assets/tiktok-icon.png">
+            </div>
         </div>
     </main>
 </body>
